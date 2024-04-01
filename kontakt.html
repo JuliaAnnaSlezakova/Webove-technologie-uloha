@@ -1,32 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Sakura travels</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
-    <link rel="icon" type="image/x-icon" href="images/sakura-favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <div id = "wrapper">
-      <header id = "header">
-        <div id = "logo_bg">
-          <img src="images/Japonsko-fotka-header.png" alt="hora fuji so sakurami" width=" 100%">
-          <div id = "logo">
-            <a href="index.html">
-              <img src="images/sakura-travels-logo.png" alt="sakura travels logo" width="90%">
-            </a>
-            </div>
+<html lang="sk">
+<head>
+  <title>Sakura travels - Kontakt</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" type="image/x-icon" href="images/sakura-favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/kontakt.js" defer></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <div id="logo_bg">
+        <img src="images/Japonsko-fotka-header.png" alt="hora fuji so sakurami" width="100%">
+        <div id="logo">
+          <a href="index.html">
+            <img src="images/sakura-travels-logo.png" alt="sakura travels logo" width="90%">
+          </a>
         </div>
-      </header>
-        <nav id = "nav">
-          <ul>
-            <li><a href="index.html">Domov</a></li>
-            <li><a href="destinacie.html">Destinácie</a></li>
-            <li><a href="tipy.html">Tipy</a></li>
-            <li><a href="galeria.html">Galéria</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-          </ul>
-        </nav>
-    </div>  
-  </body>
+      </div>
+    </header>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Domov</a></li>
+        <li><a href="destinacie.html">Destinácie</a></li>
+        <li><a href="tipy.html">Tipy</a></li>
+        <li><a href="galeria.html">Galéria</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="main-content">
+    <h1>Kontaktuje nás</h1>
+    <form id="contact-form">
+      <label for="name">Meno a priezvisko:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="message">Správa:</label><br>
+      <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+      <input type="radio" id="radio1" name="radio" value="Option 1">
+      <label for="radio1">Option 1</label><br>
+
+      <input type="radio" id="radio2" name="radio" value="Option 2">
+      <label for="radio2">Option 2</label><br><br>
+
+      <input type="checkbox" id="checkbox" name="checkbox">
+      <label for="checkbox">Checkbox</label><br><br>
+
+      <button type="submit">Poslať</button>
+    </form>
+  </div>
+  <footer id="footer">
+    <p>&copy; Sakura Travels, 2024. Všetky práva vyhradené.</p>
+  </footer> 
+</body>
 </html>
