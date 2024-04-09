@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
+  <meta charset="UTF-8">
   <title>Sakura travels - Kontakt</title>
   <link href="css/style.css" rel="stylesheet" type="text/css"/>
   <link rel="icon" type="image/x-icon" href="images/sakura-favicon.png">
@@ -30,27 +31,25 @@
     </nav>
   </div>
   <div class="main-content">
-    <h1>Kontaktuje nás</h1>
+    <h1 class="nadpis">Kontaktuje nás</h1>
     <form id="contact-form">
-      <label for="name">Meno a priezvisko:</label><br>
-      <input type="text" id="name" name="name"><br><br>
+      <label for="meno" class="normalny_text">Meno a priezvisko*</label><br>
+      <input type="text" id="meno" name="meno" placeholder="Meno priezvisko" onfocus="this.placeholder=''" onblur="this.placeholder='Meno priezvisko'"><br><br>
 
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email"><br><br>
+      <label for="email" class="normalny_text">Email*</label><br>
+      <input type="email" id="email" name="email" placeholder="priklad@email.sk" onfocus="this.placeholder=''" onblur="this.placeholder='priklad@email.sk'"><br><br>
 
-      <label for="message">Správa:</label><br>
-      <textarea id="message" name="message" rows="4"></textarea><br><br>
+      <label for="message" class="normalny_text">Správa</label><br>
+      <textarea id="message" name="message" rows="5" placeholder="Vaša správa" onfocus="this.placeholder=''" onblur="this.placeholder='Vaša správa'"></textarea><br><br>
 
-      <input type="radio" id="radio1" name="radio" value="Option 1">
-      <label for="radio1">Option 1</label><br>
+      <label for="mesto" class="normalny_text">Ktoré mesto považujete za najzaujímavejšie?</label><br>
+      <input type="radio" id="tokyo" name="mesto" value="Tokyo">Tokyo<br>
+      <input type="radio" id="kyoto" name="mesto" value="Kyoto">Kyoto<br>
+      <input type="radio" id="osaka" name="mesto" value="Osaka">Osaka<br>
+      <input type="radio" id="himeji" name="mesto" value="Himeji">Himeji<br><br>
 
-      <input type="radio" id="radio2" name="radio" value="Option 2">
-      <label for="radio2">Option 2</label><br><br>
-
-      <input type="checkbox" id="checkbox" name="checkbox">
-      <label for="checkbox">Checkbox</label><br><br>
-
-      <button type="submit">Poslať</button>
+      <label for="agree" class="normalny_text">Súhlasím so spracovaním osobných údajov*</label>
+      <input type="checkbox" id="agree" name="agree" value="agree"><br><br><button type="submit" class="normalny_text">Poslať</button>
     </form>
   </div>
   <footer id="footer">

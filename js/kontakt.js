@@ -2,28 +2,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contact-form');
   
     form.addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent the default form submission
+      event.preventDefault(); 
   
-      // Validate form fields
-      const name = document.getElementById('name').value.trim();
+      const name = document.getElementById('meno').value.trim();
       const email = document.getElementById('email').value.trim();
       const message = document.getElementById('message').value.trim();
       const radio = document.querySelector('input[name="radio"]:checked');
       const checkbox = document.getElementById('checkbox').checked;
   
       if (name === '' || email === '' || message === '' || !radio || !checkbox) {
-        alert('Please fill out all fields.');
+        alert('Vyplňte prosím všetky polia.');
         return;
       }
   
-      // Validate email format
       if (!validateEmail(email)) {
-        alert('Please enter a valid email address.');
+        alert('Vložte platnú emailovú adresu.');
         return;
       }
   
-      // Form is valid, submit the form
-      alert('Form submitted successfully!');
+      alert('Úspešne odoslané!');
       form.reset();
     });
   });
