@@ -6,18 +6,20 @@
   <link rel="stylesheet" href="../css/style.css" type="text/css">
   <link rel="icon" type="image/x-icon" href="../images/sakura-favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/inicializacia_owl.js"></script>
+  <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../css/owl.carousel.min.css">
 </head>
 <body>
   <div id="wrapper">
     <header id="header">
       <div id="logo_bg">
-        <img src="../images/Japonsko-fotka-header.png" alt="hora fuji so sakurami" width="100%">
+        <img src="../images/Japonsko-fotka-header.png" alt="hora fuji so sakurami" draggable="false" width="100%">
         <div id="logo">
           <a href="../index.html">
-            <img src="../images/sakura-travels-logo.png" alt="sakura travels logo" width="90%">
+            <img src="../images/sakura-travels-logo.png" alt="sakura travels logo" draggable="false" width="90%">
           </a>
         </div>
       </div>
@@ -34,12 +36,10 @@
     <div class="main-content">
       <section id="destinations">
         <h1 class="nadpis">Destinácie</h1>
-        <!-- Static Tokyo content -->
         <div class="staticke_nadpisy" id="staticke_tokyo">
           <h2 class="normalne_nadpisy">Tokyo</h2>
           <p class="normalny_text">Tokyo, rušné hlavné mesto Japonska, je živé metropola známa svojimi modernými mrakodrapmi, historickými chrámami a rušnými uličkami trhovísk. Počas obdobia sakúr sa Tokyo premení na more ružovej farby, keď kvitnúce sakury zdobia jeho parky, ulice a brehy riek.</p>
         </div>
-        <!-- Carousel with Tokyo images -->
         <div class="destination owl-carousel owl-theme carouselTokyo">
           <div class="item"><img src="../images/Tokyo/tokyo-1.jpg" alt="tokyo sakura stromy"></div>
           <div class="item"><img src="../images/Tokyo/tokyo-2.jpg" alt="tokyo sakura stromy"></div>
@@ -86,8 +86,5 @@
       <p>&copy; 2024 Sakura Travels. Všetky práva vyhradené.</p>
     </footer>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="/js/owl.carousel.min.js"></script>
-  <script src="/js/inicializacia_owl.js"></script>
 </body>
 </html>

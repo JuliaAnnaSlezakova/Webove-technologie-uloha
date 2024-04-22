@@ -161,7 +161,6 @@ body {
     color: #FF80A8
   }
   
-
 .normalne_nadpisy {
     color:#FF80A8;
     font-family:'Franklin Gothic Medium'; 
@@ -205,3 +204,37 @@ body {
 .staticke_nadpisy {
     padding-bottom: 10px; 
   }
+
+.button {
+    color: black;
+    background-color: white;
+    font-family: 'Franklin Gothic Regular';
+    font-size: 17px;
+    border-color: #FF80A8;
+}
+
+#tips {
+    margin-bottom: 15px;
+}
+
+.tabulka {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.tabulka th, .tabulka td {
+    border: 1.5px solid black; 
+    padding: 15px; 
+    font-family: "Franklin Gothic Medium";
+    font-size: 16px; 
+}
+
+.tabulka th {
+    background-color:#FF80A8; 
+}
+
+.tabulka tr:hover {
+    background-color: white; 
+}
+
