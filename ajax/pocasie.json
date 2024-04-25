@@ -1,37 +1,36 @@
 {
-    "mesto": [
-      {
-        "meno": "Tokyo",
-        "pocasie": {
-          "teplota": "20°C",
-          "vietor": "10 km/h",
-          "vlhkost": "60%"
-        }
-      },
-      {
-        "meno": "Kyoto",
-        "pocasie": {
-          "teplota": "18°C",
-          "vietor": "8 km/h",
-          "vlhkost": "55%"
-        }
-      },
-      {
-        "meno": "Osaka",
-        "pocasie": {
-          "teplota": "22°C",
-          "vietor": "12 km/h",
-          "vlhkost": "65%"
-        }
-      },
-      {
-        "meno": "Himeji",
-        "pocasie": {
-          "teplota": "21°C",
-          "vietor": "11 km/h",
-          "vlhkost": "62%"
-        }
+  "mesto": [
+    {
+      "meno": "Tokyo",
+      "pocasie": {
+        "teplota": "20°C",
+        "vietor": "10 km/h",
+        "vlhkost": "60%"
       }
-    ]
-  }
-  
+    },
+    {
+      "meno": "Kyoto",
+      "pocasie": {
+        "teplota": "18°C",
+        "vietor": "8 km/h",
+        "vlhkost": "55%"
+      }
+    },
+    {
+      "meno": "Osaka",
+      "pocasie": {
+        "teplota": "22°C",
+        "vietor": "12 km/h",
+        "vlhkost": "65%"
+      }
+    },
+    {
+      "meno": "Himeji",
+      "pocasie": {
+        "teplota": "21°C",
+        "vietor": "11 km/h",
+        "vlhkost": "62%"
+      }
+    }
+  ]
+}

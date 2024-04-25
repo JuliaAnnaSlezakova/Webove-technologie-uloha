@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: auto;
     background-image: contain;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position-x: center;
     display: inline-block;
     position: relative;
@@ -23,14 +23,14 @@ body {
     position: absolute;
     width: 23%;
     top: 10%;
-    left: 1%; 
-    z-index: 2; 
+    left: 1%;
+    z-index: 2;
 }
 
 #nav {
-    height:auto;
-    background-color:#FF80A8;
-    color:white;
+    height: auto;
+    background-color: #FF80A8;
+    color: white;
     font-size: 22px;
     text-align: center;
     padding: 15px 10px 15px 10px;
@@ -48,22 +48,22 @@ body {
 
 #nav ul li:not(:last-child)::after {
     content: ' \007C';
-    margin-left: 30px; 
-    margin-right: 30px; 
-    color: #ffffff; 
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #ffffff;
 }
 
 #nav ul li a {
-    color:white;
+    color: white;
     text-decoration: none;
     font-family: 'franklin gothic medium';
     font-size: 35px;
-    cursor:pointer;
+    cursor: pointer;
     transition: color 0.6s;
 }
 
 #nav ul li a:hover {
-    color:#FF80A8;
+    color: #FF80A8;
     background-color: white;
     padding: 15px 40px 15px 40px;
     margin: 0 -40px;
@@ -72,34 +72,40 @@ body {
 
 @media only screen and (max-width: 768px) {
     #nav ul li a {
-        font-size: 3.5vw; 
+        font-size: 3.5vw;
     }
+
     #nav {
         padding: 10px 10px;
     }
+
     #nav ul li:not(:last-child)::after {
-        margin-left: 15px; 
-        margin-right: 15px; 
+        margin-left: 15px;
+        margin-right: 15px;
     }
+
     #nav ul li a:hover {
         padding: 15px 25px;
-        margin: 0 -25px; 
-    } 
+        margin: 0 -25px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1080px) {
     #nav ul li a {
         font-size: 3.5vw;
     }
+
     #nav {
         padding: 20px 20px;
     }
+
     #nav ul li:not(:last-child)::after {
-        margin-left: 15px; 
-        margin-right: 15px; 
+        margin-left: 15px;
+        margin-right: 15px;
     }
+
     #nav ul li a:hover {
-        padding: 20px 25px; 
+        padding: 20px 25px;
         margin: 0 -25px;
     }
 }
@@ -112,8 +118,8 @@ body {
 }
 
 .nadpis {
-    color:#FF80A8;
-    font-family:'Franklin Gothic Medium'; 
+    color: #FF80A8;
+    font-family: 'Franklin Gothic Medium';
     font-size: 30px;
     text-decoration: underline;
     margin-bottom: 10px;
@@ -124,7 +130,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 #male_logo {
     margin-left: 10px;
@@ -142,35 +148,35 @@ body {
 }
 
 #list_index {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-  }
-  
-  #list_index li {
-    margin-bottom: 5px; 
-  }
-  
-  #list_index a {
-    text-decoration: none; 
-    color: black; 
-    transition: color 0.3s; 
-  }
-  
-  #list_index a:hover {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#list_index li {
+    margin-bottom: 5px;
+}
+
+#list_index a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+#list_index a:hover {
     color: #FF80A8
-  }
-  
+}
+
 .normalne_nadpisy {
-    color:#FF80A8;
-    font-family:'Franklin Gothic Medium'; 
+    color: #FF80A8;
+    font-family: 'Franklin Gothic Medium';
     font-size: 25px;
     margin-bottom: 2px;
     padding-top: 10px;
 }
 
 .normalny_text {
-    color:black;
+    color: black;
     font-family: 'Franklin Gothic Regular';
     font-size: 17px;
     max-width: 80%;
@@ -183,27 +189,27 @@ body {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start; 
-  }
-  
+    align-items: flex-start;
+}
+
 .gallery a {
     flex: 1 0 calc(25% - 10px);
-    margin: 10px; 
+    margin: 10px;
     position: relative;
-  }
-  
+}
+
 .gallery img {
     width: 100%;
     height: 100%;
-  }
+}
 
 #footer {
     text-align: center;
 }
 
 .staticke_nadpisy {
-    padding-bottom: 10px; 
-  }
+    padding-bottom: 10px;
+}
 
 .button {
     color: black;
@@ -223,18 +229,18 @@ body {
     margin-top: 20px;
 }
 
-.tabulka th, .tabulka td {
-    border: 1.5px solid black; 
-    padding: 15px; 
+.tabulka th,
+.tabulka td {
+    border: 1.5px solid black;
+    padding: 15px;
     font-family: "Franklin Gothic Medium";
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 .tabulka th {
-    background-color:#FF80A8; 
+    background-color: #FF80A8;
 }
 
 .tabulka tr:hover {
-    background-color: white; 
+    background-color: white;
 }
-
